@@ -6,6 +6,9 @@ import joblib
 from src.cnnClassifier.config.configuration import ModelTrainerConfig
 
 
+import mlflow
+
+
 class ModelTrainer:
     def __init__(self, config: ModelTrainerConfig):
         self.config = config
